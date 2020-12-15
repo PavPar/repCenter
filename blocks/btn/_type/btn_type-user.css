@@ -1,9 +1,0 @@
-.btn_type-user{
-    background-color: #A251FF;
-    transition: box-shadow ease-out .5s;
-    width: 350px;
-}
-
-.btn_type-user:hover{
-    box-shadow: #6435A5 5px 5px;
-}
