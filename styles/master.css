@@ -1,29 +1,11 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/_access/header_access-client.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/ticket/ticket.css);
 @import url(../blocks/report/comments.css);
-/* --- */
-@import url(../blocks/acc-info/acc-info.css);
-@import url(../blocks/cards/cards.css);
-@import url(../blocks/card/card.css);
-@import url(../blocks/nav-block/nav-block.css);
-/*  */
 @import url(../blocks/btn/btn.css);
-@import url(../blocks/btn/_type/btn_type-logout.css);
-@import url(../blocks/btn/_type/btn_type-user.css);
-@import url(../blocks/btn/_type/btn_type-add.css);
-@import url(../blocks/btn/_type/btn_type-card-close.css);
-@import url(../blocks/btn/_type/btn_type-card-info.css);
-@import url(../blocks/btn/_type/btn_type-card-add.css);
-@import url(../blocks/btn/_type/btn_type-pool.css);
-@import url(../blocks/btn/_type/btn_type-finished.css);
-@import url(../blocks/btn/_type/btn_type-closed.css);
-@import url(../blocks/btn/_type/btn_type-all.css);
-@import url(../blocks/btn/_type/btn_type-login.css);
 
 .hidden {
     display: none;
