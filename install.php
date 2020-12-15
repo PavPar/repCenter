@@ -76,7 +76,7 @@ function createCommentOrderTable() {
         constraint comment_order_pk
             unique (order_id, created_at),
         constraint comment_order__fk
-            foreign key (order_id) references order (id)
+            foreign key (order_id) references `order` (id)
     )");
 }
 
@@ -111,7 +111,9 @@ function createSchema() {
 }
 
 function addSampleData() {
-
+    global $CN;
+    $q = file_get_contents("misc/sample_data.sql");
+    $CN->multi_query($q);
 }
 
 if (isPost()) {

@@ -36,7 +36,7 @@
             <td><xsl:apply-templates select="client"/></td>
             <td><xsl:value-of select="deviceInfo"/></td>
             <td><xsl:value-of select="orderType"/></td>
-            <td><xsl:value-of select="price"/><xsl:text>&#xA0;₽</xsl:text></td>
+            <td><xsl:text>$ </xsl:text><xsl:value-of select="price"/></td>
         </tr>
     </xsl:template>
 

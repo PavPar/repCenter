@@ -32,7 +32,7 @@ function buildTable($lower_bound) {
     $st_result = $stmt->get_result();
     while($row = $st_result->fetch_assoc()) {
         $result .= "<tr><td><strong>{$row["last_name"]}</strong>,&#xA0;{$row["first_name"]}&#xA0;{$row["middle_name"]}</td>";
-        $result .= "<td>${$row["revenue"]}</td></tr>";
+        $result .= "<td>$ {$row["revenue"]}</td></tr>";
     }
     return $result;
 }
