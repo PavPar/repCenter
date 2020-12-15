@@ -37,7 +37,7 @@ function buildTable($lower_bound) {
     return $result;
 }
 
-lastMonth();
+$target = 40000;
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -48,14 +48,14 @@ lastMonth();
 </head>
 <body>
     <main class="low-revenue">
-        <h1>Workers underperforming since <?php echo lastMonth() ?></h1>
+        <h1>Workers underperforming ( < $<?php echo $target ?>) since <?php echo lastMonth() ?></h1>
         <table class="low-revenuetbl">
             <thead>
                 <th>Worker</th>
                 <th>Revenue</th>
             </thead>
             <tbody>
-                <?php echo buildTable(40000) ?>
+                <?php echo buildTable($target) ?>
             </tbody>
         </table>
     </main>
