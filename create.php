@@ -208,7 +208,7 @@ function typeOptions() {
         <section class="ticket__user">
         <div class="ticket__client-selector">
             <input type="checkbox" class="ticket__client-selector__input" id="new-client" name="new_client">
-            <label for="new-client" class="ticket__client-selector__text">Новый клиент</label>
+            <label for="new-client" class="ticket__client-selector__text">New client</label>
         </div>
         <select required class="ticket__input ticket__input-client" name="client_id">
             <option selected value="">Existing client</option>
@@ -232,7 +232,7 @@ function typeOptions() {
         </select>
         <input required class="ticket__input" name="price" type="number" min="0" placeholder="Price">
     </section>
-        <input class="btn btn_type-accept" type="submit" value="Place an order" name="btn_self">
+        <input class="btn" type="submit" value="Place an order" name="btn_self">
     </form>
 </main>
 <footer class="footer"></footer>
