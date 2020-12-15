@@ -1,0 +1,36 @@
+@import url(../ticket/__comment/ticket__comment.css);
+@import url(../ticket/__input/ticket__input.css);
+.ticket {
+    display: grid;
+    align-items: center;
+    grid-template: 
+    "user master" 
+    "btn btn";
+    grid-column-gap: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40vh;
+}
+
+.ticket__client-selector {
+    font-size: 1rem;
+    margin-bottom: 25px;
+}
+
+.ticket__user {
+    grid-area: user;
+    align-self: start;
+    height: 100%;
+}
+
+.ticket__master {
+    grid-area: master;
+    align-self: start;
+    justify-self: center;
+    margin-top: 2.75rem;
+}
+
+.ticket__submit{
+    grid-area: btn;
+    justify-self: center;
+    width: 400px;
+}

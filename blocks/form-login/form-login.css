@@ -1,0 +1,6 @@
+@import url(./__label/form-login__label.css);
+.form-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,49 @@
+.client__contacts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+}
+.order-details {
+    background-color: lightblue;
+    padding: 0 2em;
+}
+.order-details > h3 {
+    font-weight: bold;
+    font-size: 24pt;
+    padding: 0.3em 0;
+}
+.order-details__worker {
+    margin: 0.5em 0;
+}
+
+.order-details__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+
+.order-details__misc {
+    text-align: right;
+}
+
+.order-details__misc > div {
+    margin: 0.5em 0;
+}
+
+.comment {
+    margin: 2em;
+    background-color: #eafaff;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment__ts {
+    font-size: xx-small;
+    color: lightgray;
+    margin-top: 0.7em;
+}
+
+.comment.comment-empty {
+    background-color: #ffeaea;
+}
